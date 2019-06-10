@@ -34,20 +34,7 @@ class RequestModule extends \yii\base\Module {
             '/verify/email-send' => '/request/verify/email-send',
             '/verify/email-verify/<code:\d+>' => '/request/verify/email-verify',
 
-            '/request/schedule/list' => '/request/schedule/list',
-
-            //потестирую , что вылилось
-            '/test' => '/request/test/test',
-            '/test/create-payment' => '/request/test/create',
-            '/test/set-limits' => '/request/test/set-limits',
-            '/test/complete-payment' => '/request/test/complete-payment',
-            '/test/create-transections' => '/request/test/create-transactions',
-            '/test/get-avalible' => '/request/test/get-avalible',
-            '/test/set-respond-error' => '/request/test/set-respond-error',
-            '/test/set-respond-done' => 'request/test/set-respond-done',
-            '/test/set-respond-process' => 'request/test/set-respond-process',
-            '/test/create-application' => '/request/test/create-application',
-            '/test/user/payment' => '/request/test/user-payment'
+            '/request/schedule/list' => '/request/schedule/list',        
         ];
     }
 
